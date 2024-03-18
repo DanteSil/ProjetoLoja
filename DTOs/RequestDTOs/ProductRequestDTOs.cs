@@ -1,6 +1,6 @@
-﻿namespace ProjetoLoja.DTOs
+﻿namespace ProjetoLoja.DTOs.RequestDTOs
 {
-    public class ProductDTO
+    public class ProductRequestDTOs
     {
         public string Title { get; set; }
         public string Description { get; set; }

@@ -18,6 +18,10 @@ namespace ProjetoLoja.DataBase.Mappings
             builder.Property(x => x.TotalAmount)
                 .HasColumnType("REAL")
                 .IsRequired();
+            
+            builder.Property(x => x.IsActive)
+                .HasColumnType("BOOLEAN")
+                .IsRequired();
 
             builder.Property(x => x.ProductQuantity)
                 .HasColumnType("INTEGER")
